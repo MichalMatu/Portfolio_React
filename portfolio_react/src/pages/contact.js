@@ -12,13 +12,13 @@ function Contact() {
       <p><a href="mailto:michmatu@protonmail.com">e@mail</a>
       </p>
       <p>
-      <a href="{cv}" target="_blank">CV</a>
+      <a href="../../cv.pdf" target="_blank" rel="noreferrer noopener">CV</a>
       </p>
       <p>
-        <a href="https://github.com/MichalMatu">GitHub</a>
+        <a href="https://github.com/MichalMatu" target="_blank" rel="noreferrer noopener">GitHub</a>
       </p>
       <p>
-        <a href="https://www.linkedin.com/in/michal-frontend/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/michal-frontend/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
       </p>
     </div>
   );
