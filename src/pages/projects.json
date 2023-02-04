@@ -1,30 +1,36 @@
     [{
-      "title": "Project 1",
-      "deployed": "https://www.google.com",
-      "github": "https://www.google.com",
+      "title": "Kerstin Menzel - WordPress",
+      "deployed": "https://kerstinmenzel.online/",
+      "github": "https://www.gitgub.com",
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "title": "Michal Matuszewski Simple Portfolio",
+      "deployed": "https://michalmatuszewski.com/",
+      "github": "https://www.github.com",
       "image": "https://www.google.com"
     },
     {
-      "title": "Project 1",
-      "deployed": "https://www.google.com",
-      "github": "https://www.google.com",
+      "title": "Weather App",
+      "deployed": "https://michalmatu.github.io/weather_app/",
+      "github": "https://github.com/MichalMatu/weather_app",
       "image": "https://www.google.com"
     },
     {
-      "title": "Project 1",
+      "title": "Node.js Readme Generator",
       "deployed": "https://www.google.com",
-      "github": "https://www.google.com",
+      "github": "https://github.com/MichalMatu/Readme_generator",
       "image": "https://www.google.com"
     },
     {
-      "title": "Project 1",
-      "deployed": "https://www.google.com",
-      "github": "https://www.google.com",
+      "title": "Planner App",
+      "deployed": "https://github.com/MichalMatu/planner_app/settings/pages",
+      "github": "https://github.com/MichalMatu/planner_app",
       "image": "https://www.google.com"
     },
     {
-      "title": "Project 1",
+      "title": "Team Profile Generator",
       "deployed": "https://www.google.com",
-      "github": "https://www.google.com",
+      "github": "https://github.com/MichalMatu/Team_gen",
       "image": "https://www.google.com"
     }]
