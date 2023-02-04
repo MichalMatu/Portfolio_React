@@ -3,32 +3,27 @@ import HomePages from './pages/HomePages';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
-
-import {useState} from 'react';
+import {Routes, Route } from 'react-router-dom';
 
 function App() {
 
-  const [page, setPage] = useState('');
 
-  const swichPage = () => {
-    switch (page) {
-      case 'HomePages':
-        return <HomePages />;
-      case 'Projects':
-        return <Projects />;
-      case 'Contact':
-        return <Contact />;
-      default:
-        return <HomePages />;
-    }
-  };
+
+
 
 
   return (
     <>
-      <Header setPage={setPage}/>
+      <Header />
       
-      {swichPage()}
+      <Routes>
+      
+        <Route path="/" element={<HomePages />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+
+        </Routes>
+
 
 
       <Footer />

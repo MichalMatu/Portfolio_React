@@ -1,5 +1,4 @@
-// Must be rendered across every page component of the site
-// Must contain a Navbar
+import { NavLink } from "react-router-dom";
 
 function Header(props) {
   return (
@@ -7,9 +6,9 @@ function Header(props) {
       <h1>Welcome</h1>
       <div className="navbar">
         <nav>
-            <button onClick={() => props.setPage('HomePages')}>Home</button>
-            <button onClick={() => props.setPage('Projects')}>Projects</button>
-            <button onClick={() => props.setPage('Contact')}>Contact</button>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
         </nav>
         </div>
     </header>
