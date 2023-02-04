@@ -4,10 +4,10 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <div className="header">
-      
+    <header>
+      <h1>Welcome you:</h1>
       <Navbar />
-    </div>
+    </header>
   );
 }
 

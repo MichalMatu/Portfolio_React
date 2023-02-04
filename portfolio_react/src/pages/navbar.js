@@ -1,9 +1,13 @@
 // create navbar component
 
-function Navbar() {
+function Navbar(props) {
     return (
         <div className="navbar">
-        <h1>Navbar</h1>
+        <nav>
+            <button onClick={() => props.setPage('HomePages')}>Home</button>
+            <button onClick={() => props.setPage('Projects')}>Projects</button>
+            <button onClick={() => props.setPage('Contact')}>Contact</button>
+        </nav>
         </div>
         
     );
