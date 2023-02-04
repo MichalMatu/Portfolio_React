@@ -4,7 +4,7 @@
 function Header(props) {
   return (
     <header>
-      <h1>Welcome you:</h1>
+      <h1>Welcome</h1>
       <div className="navbar">
         <nav>
             <button onClick={() => props.setPage('HomePages')}>Home</button>

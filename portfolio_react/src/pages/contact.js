@@ -9,18 +9,16 @@ function Contact() {
   return (
     <div className="contact">
       <h1>Contact</h1>
-      <p>
-        Email:
-        <a href="mailto:michmatu@protonmail.com">michmatu@protonmail.com</a>
+      <p><a href="mailto:michmatu@protonmail.com">e@mail</a>
       </p>
       <p>
-        <a href="cv.pdf">CV</a>
+      <a href="{cv}" target="_blank">CV</a>
       </p>
       <p>
-        <a href="www.github.com/michmatu">GitHub</a>
+        <a href="https://github.com/MichalMatu">GitHub</a>
       </p>
       <p>
-        <a href="www.linkedin.com/in/michmatu">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/michal-frontend/">LinkedIn</a>
       </p>
     </div>
   );

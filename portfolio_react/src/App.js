@@ -10,7 +10,7 @@ function App() {
 
   const [page, setPage] = useState('');
 
-  var swichPage = () => {
+  const swichPage = () => {
     switch (page) {
       case 'HomePages':
         return <HomePages />;

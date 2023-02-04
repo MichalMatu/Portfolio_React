@@ -3,7 +3,8 @@
 function Footer () {
   return (
     <div className="footer">
-      <h1>Footer</h1>
+      <p>&copy; 2023</p>
+      <p></p>
     </div>
   );
 }

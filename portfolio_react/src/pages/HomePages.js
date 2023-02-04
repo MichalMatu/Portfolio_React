@@ -4,15 +4,17 @@
 // Your brand statement
 // Some indication that this is your portfolio site
 
+import headshot from '../img/headshot.jpg';
+
 
 
 function HomePages() {
   return (
-    <div className="home-page">
-      <h1>Hi, I'm <span className="name">Dylan</span>.</h1>
-      {/* <img src={headshot} alt="Dylan's headshot" className="headshot" /> */}
-      <p className="brand-statement">I'm a full-stack software engineer with a passion for building beautiful, user-friendly web applications.</p>
-      <p className="portfolio-notice">This is my portfolio site.</p>
+    <div className="home_page">
+      <h1>Hi, I'm <span className="name">Michal</span>.</h1>
+      <img src={headshot} alt="Dylan's headshot" className="headshot" />
+      <p>I will be front end  software engineer with a passion for building beautiful, user-friendly web applications.</p>
+      <p>And this is my portfolio site.</p>
     </div>
   );
 }
