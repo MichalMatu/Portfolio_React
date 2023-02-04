@@ -8,9 +8,9 @@ import {useState} from 'react';
 
 function App() {
 
-  const [page, setPage] = useState('HomePages');
+  const [page, setPage] = useState('');
 
-  const swichPage = () => {
+  var swichPage = () => {
     switch (page) {
       case 'HomePages':
         return <HomePages />;
@@ -30,8 +30,8 @@ function App() {
       
       {swichPage()}
 
-      <Footer />
 
+      <Footer />
 
     </>
   );
