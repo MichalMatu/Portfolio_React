@@ -35,7 +35,6 @@ h1 {
   align-items: center;
 }
 
-/* select navbar button  */
 .navbar button {
   background-color: #888;
   color: #fff;
@@ -71,4 +70,8 @@ h1 {
   padding: 0 20px;
   background-color: #888;
   color: #fff;
+}
+
+.statement {
+  font-style: italic;
 }

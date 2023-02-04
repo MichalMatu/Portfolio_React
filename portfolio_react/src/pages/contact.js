@@ -12,7 +12,7 @@ function Contact() {
       <p><a href="mailto:michmatu@protonmail.com">e@mail</a>
       </p>
       <p>
-      <a href="../../cv.pdf" target="_blank" rel="noreferrer noopener">CV</a>
+      <a href="https://michalmatuszewski.com/cv.pdf" target="_blank" rel="noreferrer noopener">CV</a>
       </p>
       <p>
         <a href="https://github.com/MichalMatu" target="_blank" rel="noreferrer noopener">GitHub</a>
