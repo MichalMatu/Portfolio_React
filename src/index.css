@@ -86,3 +86,30 @@ a.active {
   color: #000000;
   text-shadow: 0 0 1px #000000;
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: #000000 1px solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 10px;
+}
+
+.projects img {
+  margin: 10px;
+  /* img size */
+  width: 300px;
+  height: 200px;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  color: #000000;
+  text-shadow: 0 0 1px #000000;
+}

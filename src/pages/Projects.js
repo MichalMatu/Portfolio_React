@@ -6,7 +6,7 @@ import Project_sub from "./Project_sub";
 function Projects() {
   return (
     <div className="projects">
-      <p>Projects:</p>
+      
       <Project_sub />
     </div>
   );
