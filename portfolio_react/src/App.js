@@ -1,4 +1,4 @@
-import Header from './pages/header';
+import Header from './pages/Header';
 
 import HomePages from './pages/HomePages';
 
