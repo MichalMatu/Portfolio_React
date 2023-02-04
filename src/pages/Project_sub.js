@@ -6,52 +6,23 @@
 // Link to the GitHub repository
 // GIF or screenshot of the deployed application
 
-function ProjectSub() {
-  const project_list = [
-    {
-      "title": "Project 1",
-      "deployed": "https://www.google.com",
-      "github": "https://www.google.com",
-      "image": "https://www.google.com"
-    },
-    {
-      "title": "Project 1",
-      "deployed": "https://www.google.com",
-      "github": "https://www.google.com",
-      "image": "https://www.google.com"
-    },
-    {
-      "title": "Project 1",
-      "deployed": "https://www.google.com",
-      "github": "https://www.google.com",
-      "image": "https://www.google.com"
-    },
-    {
-      "title": "Project 1",
-      "deployed": "https://www.google.com",
-      "github": "https://www.google.com",
-      "image": "https://www.google.com"
-    },
-    {
-      "title": "Project 1",
-      "deployed": "https://www.google.com",
-      "github": "https://www.google.com",
-      "image": "https://www.google.com"
-    }
-  ]
+import projects from "./projects.json";
+
+const Project_sub = () => {
   return (
-
-
-<div className="project-sub">
-
-
-
-
-
-</div>
-
-
+    <>
+      {projects.map(item => {
+        return (
+          <div>
+            <h1>{item.title}</h1>
+            <p>{item.deployed}</p>
+            <p>{item.github}</p>
+            <img src={item.image} alt={item.title} />
+          </div>
+        );
+      })}
+    </>
   );
-}
+};
 
-export default ProjectSub;
+export default Project_sub;
