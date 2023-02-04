@@ -6,14 +6,51 @@
 // Link to the GitHub repository
 // GIF or screenshot of the deployed application
 
-function ProjectSub(props) {
+function ProjectSub() {
+  const project_list = [
+    {
+      "title": "Project 1",
+      "deployed": "https://www.google.com",
+      "github": "https://www.google.com",
+      "image": "https://www.google.com"
+    },
+    {
+      "title": "Project 1",
+      "deployed": "https://www.google.com",
+      "github": "https://www.google.com",
+      "image": "https://www.google.com"
+    },
+    {
+      "title": "Project 1",
+      "deployed": "https://www.google.com",
+      "github": "https://www.google.com",
+      "image": "https://www.google.com"
+    },
+    {
+      "title": "Project 1",
+      "deployed": "https://www.google.com",
+      "github": "https://www.google.com",
+      "image": "https://www.google.com"
+    },
+    {
+      "title": "Project 1",
+      "deployed": "https://www.google.com",
+      "github": "https://www.google.com",
+      "image": "https://www.google.com"
+    }
+  ]
   return (
-    <div className="project-sub">
-      <h1>{props.title}</h1>
-      <p><a href={props.deployed}>Deployed Version</a></p>
-      <p><a href={props.github}>GitHub Repository</a></p>
-      <img src={props.image} alt={props.title} />
-    </div>
+
+
+<div className="project-sub">
+
+
+
+
+
+</div>
+
+
   );
 }
 
