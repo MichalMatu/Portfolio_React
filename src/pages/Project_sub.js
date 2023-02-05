@@ -1,10 +1,8 @@
 import projects from "./projects.json";
 
 
-import { useState } from 'react';
-
 const Project_sub = () => {
-
+  
   return (
     <>
       {projects.map(item => {
@@ -12,7 +10,7 @@ const Project_sub = () => {
           <div className="projects" key={item.title}>
             <div className="cards">
             <h1>{item.title}</h1>
-            <p><a href="{item.deployed}">Visit Project</a></p>
+            <p><a href="{item.website}" target="_blank">Visit Project</a></p>
             <p><a href="{item.github}">GitHub</a></p>
             <img src={item.image} alt={item.title} />
             </div>
