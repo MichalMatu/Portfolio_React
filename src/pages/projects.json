@@ -2,16 +2,18 @@
       "count": 1,
       "title": "Kerstin Menzel",
       "website": "https://kerstinmenzel.online/",
-      "github": "https://www.gitgub.com",
+      "github": "https://github.com/MichalMatu",
       "description": "Website of Kerstin Menzel",
+      "long": "Its a website of Kerstin Menzel created with Wordpress.", 
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Kerstin.png"
     },
     {
       "count": 2,
       "title": "Michal Matuszewski",
       "website": "https://michalmatuszewski.com/",
-      "github": "https://www.github.com",
+      "github": "https://github.com/MichalMatu",
       "description": "Website of Michal Matuszewski",
+      "long": "Its a website of Michal Matuszewski created as training.",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Michal.png"
     },
     {
@@ -20,6 +22,7 @@
       "website": "https://michalmatu.github.io/weather_app/",
       "github": "https://github.com/MichalMatu/weather_app",
       "description": "Weather App",
+      "long": "Its a weather app that you can check weather in any city and store it in history using local storage.",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Weather.png"
     },
     {
@@ -28,6 +31,7 @@
       "website": "https://www.google.com",
       "github": "https://github.com/MichalMatu/Readme_generator",
       "description": "Readme Generator",
+      "long": "Its a readme generator that you can use to create readme file for your project.",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Readme.png"
     },
     {
@@ -36,6 +40,7 @@
       "website": "https://github.com/MichalMatu/planner_app/settings/pages",
       "github": "https://github.com/MichalMatu/planner_app",
       "description": "Planner App",
+      "long": "Its a planner app that you can use to plan your day.",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Planner.png"
     },
     {
@@ -44,5 +49,6 @@
       "website": "https://www.google.com",
       "github": "https://github.com/MichalMatu/Team_gen",
       "description": "Team Profile Generator",
+      "long": "Its a team profile generator that you can use to create a team profile.",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Team.png"
     }]
