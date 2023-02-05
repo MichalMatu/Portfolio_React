@@ -20,7 +20,7 @@ const Project_sub = () => {
               <h1>{item.title}</h1>
               {/* navlinkt with count number from json */}
               <NavLink to={`/projectpage/${item.count}`}>
-                Clock for more info
+                Click for more info
               </NavLink>
               <p>
                 <a href={item.website} target="_blank" rel="noreferrer">
