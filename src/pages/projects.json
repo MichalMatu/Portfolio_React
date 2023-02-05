@@ -2,35 +2,41 @@
       "title": "Kerstin Menzel",
       "website": "https://kerstinmenzel.online/",
       "github": "https://www.gitgub.com",
+      "description": "Website of Kerstin Menzel",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Kerstin.png"
     },
     {
       "title": "Michal Matuszewski",
       "website": "https://michalmatuszewski.com/",
       "github": "https://www.github.com",
+      "description": "Website of Michal Matuszewski",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Michal.png"
     },
     {
       "title": "Weather App",
       "website": "https://michalmatu.github.io/weather_app/",
       "github": "https://github.com/MichalMatu/weather_app",
+      "description": "Weather App",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Weather.png"
     },
     {
       "title": "Readme Generator",
       "website": "https://www.google.com",
       "github": "https://github.com/MichalMatu/Readme_generator",
+      "description": "Readme Generator",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Readme.png"
     },
     {
       "title": "Planner App",
       "website": "https://github.com/MichalMatu/planner_app/settings/pages",
       "github": "https://github.com/MichalMatu/planner_app",
+      "description": "Planner App",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Planner.png"
     },
     {
       "title": "Team Profile Generator",
       "website": "https://www.google.com",
       "github": "https://github.com/MichalMatu/Team_gen",
+      "description": "Team Profile Generator",
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Team.png"
     }]
