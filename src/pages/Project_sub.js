@@ -3,26 +3,13 @@ import projects from "./projects.json";
 
 import { useState } from 'react';
 
-
-
-
-
-
-
-
 const Project_sub = () => {
-
-
-
-
-
-
 
   return (
     <>
       {projects.map(item => {
         return (
-          <div className="projects">
+          <div className="projects" key={item.title}>
             <div className="cards">
             <h1>{item.title}</h1>
             <p><a href="{item.deployed}">Visit Project</a></p>
