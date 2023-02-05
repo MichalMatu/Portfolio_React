@@ -126,3 +126,46 @@ a:hover {
   color: #000000;
   text-shadow: 0 0 1px #000000;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* add margin */
+  margin: 10px;
+  /* and space between */
+  gap: 10px;
+}
+
+button {
+  background-color: #888;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: #000000;
+  color: #fff;
+  text-shadow: 0 0 1px #000000;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+textarea {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 100px;
+  width: 300px;
+}

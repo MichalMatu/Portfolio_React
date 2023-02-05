@@ -1,5 +1,5 @@
 // Must have a contact form for handling events
-
+import ContactForm from "./ContactForm";
 function Contact() {
   return (
     <div className="contact">
@@ -34,6 +34,7 @@ function Contact() {
           LinkedIn
         </a>
       </p>
+      <ContactForm />
     </div>
   );
 }
