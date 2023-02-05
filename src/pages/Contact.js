@@ -1,4 +1,3 @@
-// Must have a contact form for handling events
 import ContactForm from "./ContactForm";
 function Contact() {
   return (

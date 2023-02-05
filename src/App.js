@@ -8,7 +8,6 @@ import ProjectPage from "./pages/ProjectPage";
 
 // main App component that renders the Header, HomePages, Projects, Contact and Footer components
 function App() {
-
   return (
     <>
       <Header />
