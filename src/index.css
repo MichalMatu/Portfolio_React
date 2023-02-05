@@ -197,3 +197,18 @@ textarea {
   box-shadow: none;
 }
 
+.big {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.big img {
+/* keep right proportion of image */
+  width: 80%;
+  height: auto;
+
+}
+

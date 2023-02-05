@@ -1,4 +1,5 @@
     [{
+      "count": 1,
       "title": "Kerstin Menzel",
       "website": "https://kerstinmenzel.online/",
       "github": "https://www.gitgub.com",
@@ -6,6 +7,7 @@
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Kerstin.png"
     },
     {
+      "count": 2,
       "title": "Michal Matuszewski",
       "website": "https://michalmatuszewski.com/",
       "github": "https://www.github.com",
@@ -13,6 +15,7 @@
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Michal.png"
     },
     {
+      "count": 3,
       "title": "Weather App",
       "website": "https://michalmatu.github.io/weather_app/",
       "github": "https://github.com/MichalMatu/weather_app",
@@ -20,6 +23,7 @@
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Weather.png"
     },
     {
+      "count": 4,
       "title": "Readme Generator",
       "website": "https://www.google.com",
       "github": "https://github.com/MichalMatu/Readme_generator",
@@ -27,6 +31,7 @@
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Readme.png"
     },
     {
+      "count": 5,
       "title": "Planner App",
       "website": "https://github.com/MichalMatu/planner_app/settings/pages",
       "github": "https://github.com/MichalMatu/planner_app",
@@ -34,6 +39,7 @@
       "image": "https://raw.githubusercontent.com/MichalMatu/Portfolio_React/main/src/img/Planner.png"
     },
     {
+      "count": 6,
       "title": "Team Profile Generator",
       "website": "https://www.google.com",
       "github": "https://github.com/MichalMatu/Team_gen",

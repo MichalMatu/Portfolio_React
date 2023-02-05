@@ -1,5 +1,5 @@
 import projects from "./projects.json";
-
+import { NavLink } from "react-router-dom";
 
 import { useState } from 'react';
 
@@ -15,10 +15,13 @@ const Project_sub = () => {
   return (
     <>
       {projects.map(item => {
+        
         return (
           <div className="projects" key={item.title}>
             <div className="cards">
             <h1>{item.title}</h1>
+
+           <NavLink to={`/projectpage/${item.count}`}>Projects</NavLink>
             <p><a href="{item.website}">Visit Project</a></p>
             <p><a href="{item.github}">GitHub</a></p>
             <img src={item.image} alt={item.title} /><br></br>
@@ -26,6 +29,7 @@ const Project_sub = () => {
             <button onClick={() => handleClick(item.title)}>
               {showDescription[item.title] ? 'Hide Description' : 'Show Description'}
             </button>
+            
             </div>
           </div>
         );
