@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #cfcfcf;
+  opacity: 1;
+  background-image: radial-gradient(#e6a000 1.2000000000000002px, transparent 1.2000000000000002px), radial-gradient(#e6a000 1.2000000000000002px, #cfcfcf 1.2000000000000002px);
+  background-size: 48px 48px;
+  background-position: 0 0, 24px 24px;
 }
 
 code {
@@ -48,6 +53,9 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   border-radius: 40px;
   margin: 10px 10px 10px 10px;
+  background-color: #3700d5;
+  opacity: 1;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #3700d5 4px), repeating-linear-gradient(#62000055, #620000);
 }
 
 h1 {
@@ -86,10 +94,16 @@ h1 {
   align-items: center;
   padding: 0 20px;
   background-color: #888;
-  color: #fff;
+  color: #000000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 40px;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 30px 10px;
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #444cf7 25%, transparent 25%), linear-gradient(225deg, #444cf7 25%, transparent 25%), linear-gradient(45deg, #444cf7 25%, transparent 25%), linear-gradient(315deg, #444cf7 25%, #e5e5f7 25%);
+  background-position: 9px 0, 9px 0, 0 0, 0 0;
+  background-size: 18px 18px;
+  background-repeat: repeat;
 }
 
 .statement {
@@ -103,7 +117,7 @@ h1 {
 
 .navbar a:not(:last-child) {
   margin-right: 10px;
-}  
+}
 
 .contact a {
   text-decoration: none;
@@ -115,15 +129,17 @@ a.active {
   text-shadow: 0 0 1px #000000;
 }
 
-.projects, .home_page, .contact   {
+.projects,
+.home_page,
+.contact {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   border: #000000 1px solid;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   -webkit-border-radius: 10px;
@@ -148,6 +164,7 @@ a.active {
   text-decoration: none;
   color: #000000;
 }
+
 a:hover {
   color: #000000;
   text-shadow: 0 0 1px #000000;
@@ -163,18 +180,17 @@ form {
 }
 
 button {
-  background-color: #888;
-  color: #fff;
+  background: none;
   border: none;
-  border-radius: 40px;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 0;
   cursor: pointer;
+  color: #000000;
+  font-size: 1em;
+
 }
 
 button:hover {
-  background-color: #000000;
-  color: #fff;
+  color: #000000;
   text-shadow: 0 0 1px #000000;
 }
 
@@ -184,6 +200,11 @@ input {
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 300px;
+
+  background-color: #f3f3f3;
+  opacity: 1;
+  background: repeating-linear-gradient(45deg, #fcdfd9, #fcdfd9 3px, #f3f3f3 3px, #f3f3f3 15px);
+
 }
 
 textarea {
@@ -193,6 +214,9 @@ textarea {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   height: 100px;
   width: 300px;
+  background-color: #f3f3f3;
+  opacity: 1;
+  background: repeating-linear-gradient(-45deg, #fcdfd9, #fcdfd9 3px, #f3f3f3 3px, #f3f3f3 15px);
 }
 
 .cards button {
@@ -220,3 +244,41 @@ textarea {
   height: auto;
 }
 
+
+@media screen and (max-width: 400px) {
+  input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 250px;
+  }
+
+  textarea {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 100px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 200px;
+  }
+
+  textarea {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 100px;
+    width: 200px;
+  }
+}
