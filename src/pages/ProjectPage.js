@@ -21,7 +21,7 @@ function ProjectPage() {
       </a>
       <img src={result[0].image} alt={result[0].title} />
       <p>{result[0].long}</p>
-      <a href="/projects">Back to Projects</a>
+      <a href="/projects#/projects">Back to Projects</a>
     </div>
   );
 }
