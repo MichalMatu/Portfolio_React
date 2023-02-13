@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Fade from "react-reveal/Fade";
 // variable to store the endpoint URL
 const FORM_ENDPOINT =
   "https://public.herotofu.com/v1/db582bb0-a4e8-11ed-a31e-753411848f80";
@@ -28,18 +29,26 @@ const ContactForm = () => {
       method="POST"
       target="_blank"
     >
-      <div>
-        <input type="text" placeholder="Your name" name="name" required />
-      </div>
+      <Fade right>
+        <div>
+          <input type="text" placeholder="Your name" name="name" required />
+        </div>
+      </Fade>
+      <Fade left>
       <div>
         <input type="email" placeholder="Email" name="email" required />
       </div>
+      </Fade>
+      <Fade right>
       <div>
         <textarea placeholder="Your message" name="message" required />
       </div>
+      </Fade>
+      <Fade left>
       <div>
         <button type="submit">Send a message</button>
       </div>
+      </Fade>
     </form>
   );
 };

@@ -2,6 +2,8 @@ import projects from "./projects.json";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
+import Zoom from 'react-reveal/Zoom';
+
 const Project_sub = () => {
   const [showDescription, setShowDescription] = useState({});
 
@@ -15,6 +17,7 @@ const Project_sub = () => {
     <>
       {projects.map((item) => {
         return (
+          <Zoom>
           <div className="projects" key={item.title}>
             <div className="cards">
               <h1>{item.title}</h1>
@@ -40,6 +43,7 @@ const Project_sub = () => {
               </button>
             </div>
           </div>
+          </Zoom>
         );
       })}
     </>

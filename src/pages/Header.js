@@ -1,7 +1,9 @@
 import { NavLink } from "react-router-dom";
+import Slide from "react-reveal/Slide";
 // function to display the header and navigation links
 function Header() {
   return (
+    <Slide top>
     <header>
       <h1>Hi.</h1>
       <div className="navbar">
@@ -12,6 +14,7 @@ function Header() {
         </nav>
       </div>
     </header>
+    </Slide>
   );
 }
 

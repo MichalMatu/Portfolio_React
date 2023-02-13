@@ -1,7 +1,9 @@
 import headshot from "../img/headshot.jpg";
+import Tada from "react-reveal/Tada";
 // function homepage that returns the homepage
 function HomePages() {
   return (
+    <Tada>
     <div className="home_page">
       <h1>
         Hi, I'm <span className="name">Michal</span>.
@@ -14,6 +16,7 @@ function HomePages() {
       </p>
       <p>And this is my portfolio site.</p>
     </div>
+    </Tada>
   );
 }
 
