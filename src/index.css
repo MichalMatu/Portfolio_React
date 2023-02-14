@@ -26,6 +26,27 @@ img {
   cursor: pointer;
 }
 
+img.headshot {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 5s;
+  cursor: pointer;
+}
+
+img.headshot2 {
+  width: 200px;
+  height: auto;
+  border-radius: 20%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 5s;
+  cursor: pointer;
+}
+
+
 img:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   -webkit-filter: blur(5px);
